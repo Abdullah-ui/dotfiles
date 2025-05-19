@@ -1,2 +1,4 @@
 # dotfiles
-This repo consists of the configs for my i3, future bars, i3blocks and many others. 
+Hello there, welcome to my dotfiles github page. Now before getting started, don't copy the configs directly as they may contain applications that might not be installed on your linux.
+
+
