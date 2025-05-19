@@ -39,7 +39,7 @@
   ./setup.sh
   
 - **install in one command(excluding rofi):**
-  `sudo apt install -y feh flameshot g++ gedit htop i3blocks neovim pavucontrol psensor timeshift`
+  ```sudo apt install -y feh flameshot g++ gedit htop i3blocks neovim pavucontrol psensor timeshift```
 
 # General Flatpak List of Applications
 - **Bitwarden**  
