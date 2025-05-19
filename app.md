@@ -64,7 +64,7 @@ com.spotify.Client \
 org.telegram.desktop \
 org.blender.Blender \
 org.videolan.VLC
-
+```
 
 # Other apps 
 - [Albert](https://software.opensuse.org/download/package.iframe?project=home:manuelschneid3r&package=albert&acolor=00cccc&hcolor=00aaaa&locale=en)
