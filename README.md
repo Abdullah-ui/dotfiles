@@ -1,12 +1,55 @@
-# Welcome to my my-linux-config
-Hello there, welcome to my dotfiles github page. Now before getting started, don't copy the configs directly as they may contain applications that might not be installed on your linux.
+# Welcome to `my-linux-config` 👋
 
-# Where to look for the installed applications on my linux
-[Click on me!](https://github.com/Abdullah-ui/dotfiles/blob/main/installedApplications/app.md)
+Hello there! Welcome to my Linux configuration repository. This project includes my personal dotfiles, installed application lists, package setups, and wallpapers.
 
-# Why this config?
-I found this config to be relatively more on the functional side, as you can see my idea isn't about creating the most aesthetically pleasing i3wm but a functional one. I will incorporate good functions that makes sense to be used whether integrated with i3blocks or i3. 
+> ⚠️ **Note:** Please **do not copy** the configs blindly. Some configurations reference applications or scripts that might not be installed on your system. Always tailor them to your own setup.
 
-The apps I have installed are for my workflow, but you can install the packages that you need only. In case there is a line that is added for a specific script or application that is not installed on your machine for your specific reasons, remove it from the i3-config.
+---
 
-# ENJOY!
+## 📦 Installed Applications
+
+Curious about which apps are part of this environment?
+
+👉 [View the list of installed applications](https://github.com/Abdullah-ui/dotfiles/blob/main/installedApplications/app.md)
+
+---
+
+## 💭 Why This Config?
+
+My focus is on **functionality over aesthetics**. While many i3wm configs aim for flashy visuals, mine is built to support an efficient and productive workflow.
+
+Key points:
+
+- Practical and minimal i3/i3blocks setup.
+- Scripts and tools that I personally find useful.
+- Easy to adapt - remove or tweak anything that doesn’t suit your system.
+
+If you come across a line in the i3 config that throws an error, it’s probably tied to an app you don’t have. Just comment it out or remove it.
+
+---
+
+## 🧠 Launching Apps on Specific Workspaces
+
+Some applications in my config are set to **automatically launch on specific workspaces** according to my needs. If you don’t want this behavior, feel free to remove those lines from your i3 config.
+
+If you’d like to set this up yourself:
+
+1. Use `xprop` in a terminal and click on a running app’s window.
+2. Look for the line that says `WM_CLASS(STRING)` and grab the **second value**.
+3. Use that value in your i3 config like this:
+
+   ```bash
+   assign [class="YourAppName"] $workspaceNumber
+---
+
+## 🚀 Get Started, Tweak, and Make It Yours!
+
+Feel free to explore, borrow ideas, and modify things to suit your preferences.  
+Whether you're just setting up your Linux desktop or looking to improve your existing workflow - I hope this helps.
+
+---
+
+## 🎉 Enjoy!
+
+Go at it! Configure it all.
+
