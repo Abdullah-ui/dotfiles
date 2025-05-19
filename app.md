@@ -27,7 +27,7 @@
 - **psensor**  
   `sudo apt install psensor`
 
-- **timeshift**
+- **timeshift**  
   `sudo apt install timeshift`
   
 - **rofi**  
